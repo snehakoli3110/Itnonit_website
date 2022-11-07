@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>second</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="nav-container">
+      <nav class="navbar navbar-expand-lg bg-primary">
+          <div class="container-fluid">
+              <img src="E:/logo.jpeg" alt="" height="60" width="60"  style="border-radius: 50%;">
+              <a class="navbar-brand p-2 text-light" href="#">ItNonIt</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <button class="btn btn-primary" aria-current="page" href="#">Home</button>
+                      </li>
+                      <li class="nav-item">
+                          <button class="btn btn-primary" href="#">Post Job</button>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              Jobs By Company
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Company1</a></li>
+                              <li><a class="dropdown-item" href="#">Company2</a></li>
+                              <li><a class="dropdown-item" href="#">Company3</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Jobs By Degree
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Engineering</a></li>
+                              <li><a class="dropdown-item" href="#">BSC</a></li>
+                              <li><a class="dropdown-item" href="#">MBA</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Jobs By Location
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Pune</a></li>
+                              <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                              <li><a class="dropdown-item" href="#">Bengluru</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <button class="btn btn-primary" href="#">Buy Me a Coffee</button>
+                      </li>
+                      <li class="nav-item">
+                          <button class="btn btn-primary" href="#">About Us</button>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </div>
+      <!--BODY STARTING FROM HERE-->
+      <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+        <!--SEARCH BAR-->
+        <div class="input-group" style="padding-top: 30px;">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" width="800px" />
+            <button type="button" class="btn btn-outline-primary" style="width: auto;">Filter dropdown</button>
+        </div>
+        <div class="text-center" style="padding-top: 15px;">
+            <button type="button" class="btn btn-outline-primary text-center" style="width: 120px;">Search</button>
+          </div>
+          <!--JOB DISCRIPTION CARD-->
+    </div>
+    <div class="container ">
+      <div class="row">
+          <div class="col-lg-6 mb-4" style="padding-top:20px;">
+              <div class="card" style="height: 600px;border-width: 2px;" >
+                <div class="card-body">
+                  <div class="card-header " style="text-align: center; background-color:royalblue;color: white;">JOB TITLE</div>
+                  <div class="card-body" style="border-color: royalblue;border-width: 2px; text-align: center;">ABOUT</div>
+                </div>
+              </div>
+          </div>
+
+
+
+
+
+
+          <div class="col-lg-6 mb-4" style="padding-top:20px;">
+              <div class="card" style="height: 600px;border: 0ch;">
+
+                  <div class="card-body ">
+                      <h5 class="card-title text-center">LATEST JOBS</h5>
+                      <div class="row" style="margin-left: 100px; margin-top: 20px;">
+                        <div class="col-md-1 " >
+                          <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                        </div>
+                        <div class="col-md-3" style="">
+                              <h5 class="card-title text-gray-500 ">JOB TITLE</h5>
+                              <h6 class="text-gray-500">COMPANY NAME</h6>
+                              <h6 class="text-gray-500">LOCATION</h6>
+                              <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                        </div>
+                    </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+        
+
+
+
+
+          <!--<div class="flex flex-wrap  flex-grow h-full " style=" padding-top: 40px;">
+            <div class="card text-gray-500" style="height: 600px ; width: 50%;">
+              <div class="card-header " style="text-align: center; background-color:rgb(58, 107, 252);color: white;">JOB TITLE</div>
+              <div class="card-body" style="border-color: royalblue;border-width: 2px;">ABOUT</div>
+            </div>
+            <div  style="height: 600px ; width: 50%;">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600"style="text-align: center;">LATEST JOBS</h1>
+                <div class="d-flex flex-column flex items-center ">
+                    <div class="h-full flex items-center  p-4 rounded-lg">
+                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                          <p class="text-gray-500">COMPANY NAME</p>
+                          </div>
+                        </div>
+                        <div class="h-full flex items-center  p-4 rounded-lg">
+                            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                            <div class="flex-grow">
+                              <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                              <p class="text-gray-500">COMPANY NAME</p>
+                              </div>
+                            </div>
+                            <div class="h-full flex items-center  p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                                <div class="flex-grow">
+                                  <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                                  <p class="text-gray-500">COMPANY NAME</p>
+                                  </div>
+                                </div>
+                            <div class="h-full flex items-center  p-4 rounded-lg">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                                    <div class="flex-grow">
+                                      <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                                      <p class="text-gray-500">COMPANY NAME</p>
+                                      </div>
+                                </div>
+                            <div class="h-full flex items-center  p-4 rounded-lg">
+                                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                                <div class="flex-grow">
+                                <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                                <p class="text-gray-500">COMPANY NAME</p>
+                                </div>
+                             </div>
+                            
+                  </div>
+            
+            
+            </div>
+          -->
+
+            <div class="flex flex-wrap -m-2 justify-content-center"style="padding-top: 30px;">
+                <h1 class="text-gray-500" style="padding-top:30px ;">SHARE JOB -></h1>
+                <img alt="Whatsapp" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 " src="https://dummyimage.com/108x98" >
+                <img alt="Facebook" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 " src="https://dummyimage.com/108x98" >
+                <img alt="Instagram" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98" >
+                <img alt="Linkedin" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98" >
+                <img alt="Twitter" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98">
+                <img alt="Telegram" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4 " src="https://dummyimage.com/108x98">
+                
+            </div>
+            
+            </div>
+            <div style="padding-top: 15px;">
+                <button type="button"  class="btn btn-outline-primary text-center" style=" width: 50% ;" >APPLY LINK</button>
+            </div>
+
+        <!--RESULT OF FILTRATION -LATEST JOB POSTS-->
+       <!--- <div class="b-example-divider"></div>
+
+        <div class="container px-4 py-5" id="hanging-icons">
+          <h2 class="pb-2 border-bottom">Hanging icons</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+              </div>
+              <div>
+                <h2>Featured title</h2>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                  Primary button
+                </a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
+              </div>
+              <div>
+                <h2>Featured title</h2>
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-primary">
+                  Primary button
+                </a>
+              </div>
+            </div>
+          -->
+      
+
+
+          <div class="row mb-3"style="padding-top:50px; padding-left:100px;padding-right:100px;">
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative ">
+                <div class="col-auto d-none d-lg-block" style="padding-top: 20px; padding-left:10px;">
+                  <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+                </div>
+                <div class="col p-4 d-flex flex-column position-static" style="margin-top: 0;">
+                  <h3 class="mb-0">Post title</h3>
+                  <p class="mb-auto">COMPANY NAME</p>
+                  <p class="mb-auto">JOB LOCATION</p>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        <!--<div class="card" style="margin-top: 50px; border-color: white;">
+        
+          <h3 class="pb-2 border-bottom " style="text-align: center; ">SIMILAR JOBS TO APPLY</h3>
+        
+          <div class="row" style="margin-left: 100px; margin-top: 20px;">
+            <div class="col-md-1 " >
+              <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+            </div>
+            <div class="col-md-3" style="">
+                  <h5 class="card-title text-gray-500 ">JOB TITLE</h5>
+                  <h6 class="text-gray-500">COMPANY NAME</h6>
+                  <h6 class="text-gray-500">LOCATION</h6>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+            </div>
+        
+          
+            <div class="col-md-1 ">
+              <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+            </div>
+            <div class="col-md-3">
+                  <h5 class="card-title text-gray-500 ">JOB TITLE</h5>
+                  <h6 class="text-gray-500">COMPANY NAME</h6>
+                  <h6 class="text-gray-500">LOCATION</h6>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+            </div>
+
+            <div class="col-md-1 ">
+              <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+            </div>
+            <div class="col-md-3">
+                  <h5 class="card-title text-gray-500 ">JOB TITLE</h5>
+                  <h6 class="text-gray-500">COMPANY NAME</h6>
+                  <h6 class="text-gray-500">LOCATION</h6>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+            </div>
+
+          </div>
+<!--SECOND ROW
+          <div class="row" style="margin-left: 100px; margin-top: 40px;">
+            <div class="col-md-1 " >
+              <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+            </div>
+            <div class="col-md-3" style="">
+                  <h5 class="card-title text-gray-500 ">JOB TITLE</h5>
+                  <h6 class="text-gray-500">COMPANY NAME</h6>
+                  <h6 class="text-gray-500">LOCATION</h6>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+            </div>
+        
+          
+            <div class="col-md-1 ">
+              <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+            </div>
+            <div class="col-md-3">
+                  <h5 class="card-title text-gray-500 ">JOB TITLE</h5>
+                  <h6 class="text-gray-500">COMPANY NAME</h6>
+                  <h6 class="text-gray-500">LOCATION</h6>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+            </div>
+    
+            <div class="col-md-1 ">
+              <img alt="team" class="img-fluid rounded-circle" src="https://dummyimage.com/80x80">
+            </div>
+            <div class="col-md-3">
+                  <h5 class="card-title text-gray-500 ">JOB TITLE</h5>
+                  <h6 class="text-gray-500">COMPANY NAME</h6>
+                  <h6 class="text-gray-500">LOCATION</h6>
+                  <button class="btn btn-outline-primary text-center mt-0"style="margin-top:0">APPLY NOW</button>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+        <!--<div class="flex flex-col text-center w-full mb-10" style="padding-top: 50px;">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600">SIMILAR JOBS TO APPLY</h1>
+            
+          </div>
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                  <p class="text-gray-500">CCOMPANY NAME</p>
+                  <p class="text-gray-500">LOCATION</p>
+                  <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;text-align: center;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98">
+                <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">JOB TITLE</h2>
+                    <p class="text-gray-500">CCOMPANY NAME</p>
+                    <p class="text-gray-500">LOCATION</p>
+                    <button type="button" class="btn btn-outline-primary text-center" style="width: 120px; height: auto;background-color:cornflowerblue;color: aliceblue;">APPLY NOW</button>
+                </div>
+              </div>
+            </div>
+          -->
+            <!--CARDS OF -JOBS BY DEGREE, ...-->
+
+
+            <div class="flex flex-wrap  flex-grow h-full " style=" padding-top: 40px;padding-left: 100px;padding-right: 100px;">
+              <div class="row flex items-center">
+              <div class="card text-gray-500" style="height: 250px ; width: 250px;">
+                <div class="card-header">JOBS BY DEGREE</div>
+                <div class="card-body">degree1</div>
+                <div class="card-body">degree2</div>
+                <div class="card-body">degree3</div>
+
+              </div>
+      
+              <div class="card text-gray-500" style="height: 250px; width:250px;">
+                <div class="card-header">JOBS BY COMPANY</div>
+                <div class="card-body">Company1</div>
+                <div class="card-body">Company2</div>
+                <div class="card-body">Company3</div>
+                
+              </div>
+              <div class="card text-gray-500" style="height: 250px ; width: 250px;">
+                <div class="card-header">JOBS BY LOCATION</div>
+                <div class="card-body">location1</div>
+                <div class="card-body">location2</div>
+                <div class="card-body">location3</div>
+                </div>
+                
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </section>
+
+      <!--FOOTER-->
+  <div class="footer-clean">
+        <footer>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div >
+                <h3 style="text-align: center">ABOUT US</h3>
+                <p>“I have always believed, and I still believe, that whatever good or bad fortune may come our way we can always give it meaning and transform it into something of value.”
+                    - Hermann Hesse, Siddhartha
+                    It is true that optimists, or positive thinkers, are at an advantage in life compared to pessimists. This is because of the effect your mindset and attitude have on everything we come across. Our social relationships, our job and also our health are an integral part of our daily life and we can feel how negative and positive thoughts can have a domino effect on everything we do during the day.
+                    The way we choose to think, positive or negative, has a great impact on the final outcome and is mirrored in everything we do. Hence the importance of having a balanced outlook on life.</p>
+                
+              </div>
+            </div>
+            
+          </div>
+        </footer>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+</html>
